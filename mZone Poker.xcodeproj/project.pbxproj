@@ -96,9 +96,9 @@
 				TargetAttributes = {
 					EC9527411B8043450098D609 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = H93AK6A68J;
+						DevelopmentTeam = NT59S575NJ;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -273,14 +273,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H93AK6A68J;
+				DEVELOPMENT_TEAM = NT59S575NJ;
 				INFOPLIST_FILE = "mZone Poker/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.3g.666777;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chTodo.bw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "ff0a644d-5ed9-41a1-a192-63a5002a92ab";
+				PROVISIONING_PROFILE_SPECIFIER = chTodo_Distribution;
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "Apple Generic";
 			};
@@ -294,14 +294,14 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H93AK6A68J;
+				DEVELOPMENT_TEAM = NT59S575NJ;
 				INFOPLIST_FILE = "mZone Poker/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.3g.666777;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chTodo.bw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "ff0a644d-5ed9-41a1-a192-63a5002a92ab";
+				PROVISIONING_PROFILE_SPECIFIER = chTodo_Distribution;
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "Apple Generic";
 			};
