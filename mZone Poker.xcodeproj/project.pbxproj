@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		048F74E31DDF910E006E1D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F74E21DDF910E006E1D10 /* Assets.xcassets */; };
+		7F24FAB81EF590D0007D52CF /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F24FAB71EF590D0007D52CF /* ExportOptions.plist */; };
 		EC9527461B8043450098D609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9527451B8043450098D609 /* AppDelegate.swift */; };
 		EC9527481B8043450098D609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9527471B8043450098D609 /* ViewController.swift */; };
 		EC95274B1B8043450098D609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9527491B8043450098D609 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		041A98181DCEF4BA00F96C9E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		048F74E21DDF910E006E1D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42584AB61DF57ADE0003B086 /* mZone Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mZone Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F24FAB71EF590D0007D52CF /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		EC9527451B8043450098D609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC9527471B8043450098D609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC95274A1B8043450098D609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				048F74E21DDF910E006E1D10 /* Assets.xcassets */,
 				EC95274E1B8043450098D609 /* LaunchScreen.storyboard */,
 				EC9527511B8043450098D609 /* Info.plist */,
+				7F24FAB71EF590D0007D52CF /* ExportOptions.plist */,
 			);
 			path = "mZone Poker";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9527501B8043450098D609 /* LaunchScreen.storyboard in Resources */,
+				7F24FAB81EF590D0007D52CF /* ExportOptions.plist in Resources */,
 				EC95275B1B804DC50098D609 /* Localizable.strings in Resources */,
 				048F74E31DDF910E006E1D10 /* Assets.xcassets in Resources */,
 				EC95274B1B8043450098D609 /* Main.storyboard in Resources */,
