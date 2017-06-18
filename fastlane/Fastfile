@@ -52,7 +52,7 @@ platform :ios do
   desc "Create ipa"
   lane :testCI do
     increment_build_number
-    gym (scheme: "XXX",
+    gym (scheme: "mZone Poker",
       export_method:"enterprise",
       output_directory "./build", # 打包后的 ipa 文件存放的目录
       output_name “mZone2017”  # ipa 文件名
