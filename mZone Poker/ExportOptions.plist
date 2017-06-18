@@ -9,6 +9,6 @@
 	<key>uploadSymbols</key>
 	<true/>
 	<key>method</key>
-	<string>Distribution</string>
+	<string>ad-hoc</string>
 </dict>
 </plist>
