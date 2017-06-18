@@ -49,14 +49,15 @@ platform :ios do
 
   # You can define as many lanes as you want
 
-  desc "Create ipa"
-  lane :testCI do
-    increment_build_number
-    gym (scheme: "mZone Poker",
-      export_method:"enterprise",
-      output_directory "./build", # 打包后的 ipa 文件存放的目录
-      output_name “mZone2017”  # ipa 文件名
-   )
+  desc '构建 adhoc 任务'
+  desc 'fastlane adhoc'
+  lane :adhoc do
+    gym(
+      scheme: "bw",
+      export_method: "ad-hoc",
+      output_directory: "./build", # 打包后的 ipa 文件存放的目录
+      output_name: "bw2017"  # ipa 文件名
+    )
   end
 
 
